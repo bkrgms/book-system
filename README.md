@@ -32,11 +32,14 @@ Instead of a traditional database, this project utilizes a lightweight **JSON-ba
 
 ## 📸 Screenshots
 
-| Admin Panel | Book Search | User Comments |
+
 |:---:|:---:|:---:|
-| <img src="Assets/admin_panel_2.png" width="300"> | <img src="URL_TO_IMAGE_2" width="300"> | <img src="URL_TO_IMAGE_3" width="300"> |
-<img src="URL_TO_IMAGE_3" width="450"> |
-<img src="URL_TO_IMAGE_3" width="450"> |
+| 
+<img src="Assets/admin_panel.png" width="300"> |
+<img src="Assets/admin_panel_2.png" width="300"> |
+<img src="Assets/home_page.png" width="300"> |
+<img src="Assets/home_page_2.png" width="300"> |
+<img src="Assets/login_page.png" width="300"> |
 
 ## ⚙️ Installation & Setup
 
