@@ -1,33 +1,64 @@
-📖Book System : 
+# 📚 Book System Management
 
-📌Kitap sistemi, kullanıcıların istedikleri kitapları bulabilmesini sağlayan arama servisi ayrıca istediği kitaba yorum ve yıldız verebildiği bir sistemdir. Sitenin admini ise girişini yaptıktan sonra kitapları düzenleyebilir, silebilir veya kitap ekleyebilir.
+![Vue.js](https://img.shields.io/badge/Frontend-Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Protocols](https://img.shields.io/badge/Protocols-SOAP%20%7C%20gRPC-blue)
+![Data](https://img.shields.io/badge/Data-JSON%20Persistence-lightgrey)
 
-🚀Kullanılan Teknolojiler : 
-Backend: Node.js
-API protokolleri: SOAP, gRPC
-Frontend: Vue.js
-Veritabanı: Veritabanı yok onun yerine JSON veri saklama kullanılmıştır
+**Book System** is a comprehensive full-stack web application designed to manage library resources. It demonstrates advanced backend communication by implementing both **SOAP** and **gRPC** protocols, coupled with a reactive **Vue.js** frontend.
 
-📦Kurulum : 
-1️⃣git clone https://github.com/bkrgms/book_system.git
-cd book_system
+Instead of a traditional database, this project utilizes a lightweight **JSON-based data persistence** system, making it portable and easy to deploy for demonstration purposes.
 
-2️⃣Kurulması gereken node.js Kütüphanesi : 
+## 🚀 Features
+
+### 👤 User Interface
+* **Search & Discovery:** Users can easily search for books within the system.
+* **Rating System:** Ability to rate books and leave star reviews.
+* **Comments:** Users can share their thoughts on specific books.
+
+### 🛡 Admin Panel
+* **Dashboard Access:** Secure login for administrators.
+* **Book Management:** Full CRUD (Create, Read, Update, Delete) capabilities.
+* **Edit Metadata:** Admins can update book details, authors, and descriptions instantly.
+
+## 🛠 Tech Stack
+
+* **Frontend:** Vue.js (SPA Architecture)
+* **Backend Runtime:** Node.js
+* **Communication Protocols:**
+    * **SOAP:** For structured information exchange.
+    * **gRPC:** For high-performance, low-latency communication.
+* **Data Storage:** JSON File System (NoSQL-like structure without external DB dependencies).
+
+## 📸 Screenshots
+
+| Admin Panel | Book Search | User Comments |
+|:---:|:---:|:---:|
+| <img src="/Users/bekir/Desktop/Repo/book-system/Assets/admin_panel_2.png" width="300"> | <img src="URL_TO_IMAGE_2" width="300"> | <img src="URL_TO_IMAGE_3" width="300"> |
+
+## ⚙️ Installation & Setup
+
+Follow these steps to get the project running on your local machine.
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/bkrgms/book-system.git](https://github.com/bkrgms/book-system.git)
+cd book-system
+
+```
+2. Install Dependencies
+Install the required Node.js packages for both the application and the server.
 npm install
 
-3️⃣API'leri başlat : 
-gRPC servisi için ayrı bir terminal açınız : ../grpc client.js
-SOAP servisi için ayrı bir terminal açınız : ../SOAP server.js
-frontend'i çalıştırmak işin : ../kitap-sistemi npm run serve
+3. Run the Backend Services
 
-Teşekkürler.
-Sorularınız için linkedin veya mail adresim : bekir.ggumus@gmail.com
+Since this project uses multiple protocols, you need to start the services in separate terminal windows:
+Terminal A (gRPC Service):
+node grpc_client.js
+Terminal B (SOAP Service):
+node soap_server.js
 
-![admin_panel](https://github.com/user-attachments/assets/10b2fdf3-2967-4af5-8abc-851e20ac4bab)
-![login_page](https://github.com/user-attachments/assets/fcd51990-9972-41c7-b705-27d06ef1c53a)
-![home_page_2](https://github.com/user-attachments/assets/baa33101-f8f4-41c2-bf3b-80654076ea03)
-![home_page](https://github.com/user-attachments/assets/aa31dc55-065b-452f-9ca9-f7c947546c5a)
-![admin_panel_2](https://github.com/user-attachments/assets/27be55f0-10b4-43e8-b463-ab58ed11b2c0)
-
-
-
+4. Run the Frontend
+In a new terminal window, start the Vue.js development server:
+npm run serve
+Access the application at: http://localhost:8080
