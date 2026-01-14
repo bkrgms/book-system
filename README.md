@@ -32,11 +32,18 @@ Instead of a traditional database, this project utilizes a lightweight **JSON-ba
 
 ## 📸 Screenshots
 
-| Admin Panel | Book Search | User Comments |
-|:---:|:---:|:---:|
-| <img src="Assets/admin_panel_2.png" width="500"> | <img src="Assets/admin_panel.png" width="500"> | <img src="Assets/home_page_2.png" width="500"> |
-| <img src="Assets/home_page.png" width="500"> | <img src="Assets/login_page.png" width="500"> |
+| Admin Login | User Dashboard |
+| :---: | :---: |
+| <img src="Assets/admin_panel_2.png" width="400"> | <img src="Assets/admin_panel.png" width="400"> |
+| **Book Search** | **Book Details** |
+| <img src="Assets/home_page_2.png" width="400"> | <img src="Assets/home_page.png" width="400"> |
 
+<br>
+
+<div align="center">
+  <strong>System Overview / Database Structure</strong><br>
+  <img src="Assets/login_page.png" width="600">
+</div>
 ## ⚙️ Installation & Setup
 
 Follow these steps to get the project running on your local machine.
