@@ -34,7 +34,9 @@ Instead of a traditional database, this project utilizes a lightweight **JSON-ba
 
 | Admin Panel | Book Search | User Comments |
 |:---:|:---:|:---:|
-| <img src="/Users/bekir/Desktop/Repo/book-system/Assets/admin_panel_2.png" width="300"> | <img src="URL_TO_IMAGE_2" width="300"> | <img src="URL_TO_IMAGE_3" width="300"> |
+| <img src="Assets/admin_panel_2.png" width="300"> | <img src="URL_TO_IMAGE_2" width="300"> | <img src="URL_TO_IMAGE_3" width="300"> |
+<img src="URL_TO_IMAGE_3" width="450"> |
+<img src="URL_TO_IMAGE_3" width="450"> |
 
 ## ⚙️ Installation & Setup
 
